@@ -1,0 +1,25 @@
+=================================================================
+  MICRODADOS BRUTOS DA PNADc (IBGE)
+=================================================================
+
+Esta pasta deve conter os microdados da PNADc baixados diretamente
+do FTP do IBGE, na forma original em que são distribuídos.
+
+FTP: https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/
+
+ESTRUTURA ESPERADA:
+
+  trimestral/
+    Contém os arquivos do 4º trimestre de cada ano:
+    - PNADC_042012.txt, PNADC_042013.txt, ..., PNADC_042024.txt
+    - input_PNADC_trimestral.txt (layout de leitura)
+    - dicionario_PNADC_microdados_trimestral.xls
+    - deflator_PNADC_<ano>_trimestral.xls
+
+NOTA: Estes arquivos são pesados (centenas de MB cada) e NÃO
+devem ser versionados no Git. O .gitignore já os ignora.
+
+Após colocar os arquivos aqui, execute a Etapa 1 do script
+emprego_verde_consolidado.R para gerar os parquets em
+dados/pnadc_trim/.
+=================================================================

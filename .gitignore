@@ -1,0 +1,62 @@
+# R padrão
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.RDataTmp*
+
+# Arquivos temporários do R
+*.Rout
+*.Rdata
+*~
+
+# Bases de dados pesadas (parquet, csv grandes)
+*.parquet
+*.csv
+*.feather
+*.fst
+
+# Microdados brutos do IBGE (pesados, não versionar)
+dados/microdados_ibge/trimestral/
+
+# Dados de referência e brutos (não versionar)
+dados/referencia/
+dados/pnadc_trim/
+dados/deflator/
+
+# Dados processados (gerados pelos scripts)
+dados/processados/
+
+# Análise SCN
+analise_scn/
+
+# Outputs / produtos intermediários
+produtos/produtos-*
+produtos/graficos/
+produtos/tabelas/
+produtos/apresentacoes/
+produtos/textos/
+
+# Planilhas de teste
+teste*.xlsx
+teste*.csv
+
+# Credenciais e configurações locais
+.env
+*.credentials
+secrets.R
+config_local.R
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache
+__pycache__/
+.cache/
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar

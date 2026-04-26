@@ -1,0 +1,19 @@
+=================================================================
+  SCRIPTS LEGADO — NÃO USAR DIRETAMENTE
+=================================================================
+
+Estes scripts foram desenvolvidos individualmente ao longo do 
+projeto (2022–2025) e estão aqui apenas para referência histórica.
+
+ATENÇÃO: Os caminhos de pastas nestes scripts estão desatualizados.
+As pastas foram renomeadas na reorganização de abril/2026:
+  - dados/dados_original  →  dados/referencia
+  - dados/dados_final     →  dados/processados
+  - produtos/gráficos     →  produtos/graficos
+
+Para executar o projeto, use o script consolidado:
+  script/emprego_verde_consolidado.R
+
+Esse script já contém toda a lógica destes scripts individuais
+organizada em funções por etapa.
+=================================================================
