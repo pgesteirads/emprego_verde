@@ -273,4 +273,4 @@ O script cria as seguintes variáveis a partir dos microdados:
 
 ## Licença
 
-Projeto interno — Macroplan.
+Projeto interno — UFRJ.
