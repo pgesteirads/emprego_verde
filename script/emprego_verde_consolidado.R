@@ -364,13 +364,11 @@ incluir_variaveis_derivadas <- function(base_pnadc) {
   message("  Incluindo variáveis derivadas...")
 
   # --- Setor CNAE 2.0 ---
-  setor_df <- read_xlsx(
-    path = file.path(CAMINHO_DADOS_ORIGINAL, "Harmonizacao.xlsx"),
-    col_names = TRUE
-  ) %>%
-    select(-3:-4)
-
-  base_pnadc <- left_join(base_pnadc, setor_df)
+  # As colunas de setor (setor_cnae20_cod, setor_cnae20_nome, cnaedom_nome e
+  # class_verde_setor) são incluídas mais abaixo, a partir de `cnae_verde`, que
+  # é a fonte autoritativa. A leitura da 1a aba de Harmonizacao.xlsx foi
+  # removida porque aquela aba ("CNAEDom2.0 x CNAE2.0 x Harmoniz") não contém
+  # essas colunas — era a causa de o erro "setor_cnae20_cod não existe".
 
   # --- Região geográfica ---
   uf_regiao <- read_xlsx(file.path(CAMINHO_DADOS_ORIGINAL, "uf_regiao.xlsx"), col_names = TRUE)
@@ -432,7 +430,8 @@ incluir_variaveis_derivadas <- function(base_pnadc) {
   }
 
   base_pnadc <- base_pnadc %>%
-    left_join(cnae_verde %>% select(cnaedom_cod, class_verde_atividade),
+    left_join(cnae_verde %>% select(cnaedom_cod, cnaedom_nome, class_verde_atividade,
+                                    setor_cnae20_cod, setor_cnae20_nome, class_verde_setor),
               by = c("V4013" = "cnaedom_cod"))
 
   # --- Classificação verde por ocupação (CBO - Caruso 2010) ---
@@ -1203,12 +1202,13 @@ ggplot(
     mutate(freq = n * 100 / sum(n, na.rm = TRUE)),
   aes(x = regiao, y = freq, fill = class_verde_atividade)
 ) +
-  geom_col(width = 0.5, color = "black") +
+  geom_col(width = 0.5, color = "black", position = "fill") +
   geom_label(aes(label = paste0(round(freq), "%")),
-             position = position_stack(vjust = 0.5), size = 2.5, fill = "white") +
+             position = position_fill(vjust = 0.5), size = 2.5, fill = "white") +
   facet_wrap(~Ano) +
   scale_fill_manual(values = c("Green" = "#1b9e77", "Brown" = "#d95f02", "Neutral" = "#7570b3")) +
   tema_padrao +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))+
   labs(x = "Region", y = "Prop. (%)", fill = "Classification",
        title = glue("Proportion of Employed by Region ({anos_graf[1]}-{anos_graf[2]})"))
 ggsave(file.path(CAMINHO_PRODUTOS_GRAF, "regiao_por_classif.png"),

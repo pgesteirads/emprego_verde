@@ -60,3 +60,13 @@ __pycache__/
 *.zip
 *.tar.gz
 *.rar
+
+# Documentos, bibliografia e materiais internos (não versionar)
+green skills - bibliografia/
+documentacao_bolsa/
+proposta_ics/
+analise_cbo_onnet/
+*.pdf
+*.docx
+*.xlsx
+*.xls
