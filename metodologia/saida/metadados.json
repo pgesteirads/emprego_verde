@@ -1,0 +1,39 @@
+{
+  "gerado_em": "2026-11-15 19:50:47 -03",
+  "r_versao": "R version 4.6.1 (2026-06-24 ucrt)",
+  "pacotes": {
+    "readxl": "1.5.0",
+    "stringi": "1.8.9",
+    "writexl": "2.0.1",
+    "jsonlite": "2.0.0"
+  },
+  "parametros": {
+    "minimo_atividades": 15
+  },
+  "fontes_primarias": {
+    "CBO2002 - PerfilOcupacional.csv": "13fd66fc22573febdbfc8a268bfdd922",
+    "CBO2002 - Ocupacao.csv": "c34250f4ec9966fd7f794445c78edf48",
+    "CBO2002 - Familia.csv": "4f3d967e2d5b15ed1469d52ff273a21b"
+  },
+  "insumos_md5": {
+    "dicionario": "d75871ff1d246ba8f6c171eb9ed2927f",
+    "excecoes": "6965e5cdb9dc45b03bd17b55582a590b",
+    "descartados": "a2bf3adacdac9df360bdf03179f4fbd1",
+    "rotulos": "97e555359cfa8e0353c8720ff75b82a1",
+    "referencia": "0e74a45e09079668a2baad687b3a246f"
+  },
+  "contagens": {
+    "registros_atividade": 192745,
+    "enunciados_distintos": 50874,
+    "termos_dicionario": 183,
+    "excecoes": 24,
+    "candidatas": 1866,
+    "candidatas_sem_rotulo": 0,
+    "ocupacoes": 2700,
+    "ocupacoes_reportaveis": 2672
+  },
+  "validacao": {
+    "verificacoes": 39,
+    "falhas": 0
+  }
+}
