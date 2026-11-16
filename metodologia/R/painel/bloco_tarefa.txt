@@ -1,0 +1,8 @@
+## Sua tarefa
+
+Você receberá um único enunciado de atividade. Classifique-o aplicando a rubrica acima, sem considerar nenhuma informação externa ao enunciado.
+
+Responda em JSON com três campos:
+- classe: VERDE, POTENCIAL, MARROM ou NEUTRO;
+- regra: o trecho da rubrica que decidiu a classe. Use VERDE, POTENCIAL ou MARROM para essas classes; para NEUTRO, use NEUTRO_1 a NEUTRO_6 quando um dos seis casos de NEUTRO obrigatório se aplicar, ou NEUTRO_CONSERVADOR quando a classe resultar da regra de viés conservador;
+- justificativa: uma frase curta, em português, explicando a decisão.

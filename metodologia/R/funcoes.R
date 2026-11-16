@@ -17,6 +17,11 @@ chave <- function(x) {
   trimws(gsub("\\s+", " ", normalizar(x)))
 }
 
+# Hash de um texto e identificador estavel de atividade (12 primeiros
+# caracteres do MD5 da chave normalizada)
+hash_texto <- function(x) as.character(openssl::md5(enc2utf8(x)))
+id_item <- function(chave) unname(substr(vapply(chave, hash_texto, character(1)), 1, 12))
+
 razao <- function(num, den) {
   ifelse(den > 0, round(num / den, 5), NA_real_)
 }

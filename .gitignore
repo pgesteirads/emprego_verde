@@ -78,5 +78,18 @@ analise_cbo_onnet/
 !metodologia/saida/atividades_por_ocupacao.csv
 !metodologia/saida/validacao.csv
 metodologia/saida/intermediarios/
+
+# Painel de modelos: a rodada real e versionada; a simulada, nao
+!metodologia/painel/**/*.csv
+metodologia/painel_simulado/
+
+# Classificacao humana: planilhas, chaves e resultados reais sao versionados
+!metodologia/classificacao_humana/**/*.xlsx
+!metodologia/classificacao_humana/**/*.csv
+metodologia/classificacao_humana_simulada/
+
+# Chaves de API nunca vao para o git
+.Renviron
+.env*
 metodologia/saida/*_R.csv
 metodologia/saida/*_py.csv

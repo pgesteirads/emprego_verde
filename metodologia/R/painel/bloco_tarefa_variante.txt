@@ -1,0 +1,8 @@
+## Instruções de resposta
+
+A seguir vem um enunciado de atividade ocupacional. Com base apenas nesse enunciado e nos critérios definidos acima, decida a que classe ele pertence.
+
+Devolva um objeto JSON contendo:
+- justificativa: em uma frase, em português, o motivo da decisão;
+- regra: qual critério foi decisivo. Para as classes VERDE, POTENCIAL e MARROM, repita o nome da classe. Para NEUTRO, informe NEUTRO_1, NEUTRO_2, NEUTRO_3, NEUTRO_4, NEUTRO_5 ou NEUTRO_6 se o enunciado se enquadrar em um dos casos obrigatórios, ou NEUTRO_CONSERVADOR se a decisão vier do viés conservador;
+- classe: uma entre VERDE, POTENCIAL, MARROM e NEUTRO.

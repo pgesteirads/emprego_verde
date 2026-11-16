@@ -15,8 +15,7 @@ Você está classificando enunciados de atividade da Classificação Brasileira 
 (`lexico.py`), que serve apenas para gerar candidatos. A sua tarefa é decidir, lendo o
 enunciado, qual é a classificação correta.
 
-O dicionário não é o classificador. Cerca de um quinto das suas capturas não tem conteúdo
-ambiental algum.
+O dicionário não é o classificador. Parte das suas capturas não tem conteúdo ambiental algum.
 
 ## Definição de referência
 
@@ -144,3 +143,9 @@ Classifique todos os itens do arquivo, na ordem, sem omitir nenhum. Não escreva
   classification.* Technical report. Brussels: ESCO, 2022.
 - GRANATA, J.; POSADAS, J. *Why look at tasks when designing skills policy for the green
   transition?* Policy Research Working Paper n. 10753. Washington: World Bank, 2024.
+
+## Histórico de alterações
+
+| Data | Alteração | Motivo |
+|---|---|---|
+| 2026-11-16 | Em "Contexto de aplicação", a frase "Cerca de um quinto das suas capturas não tem conteúdo ambiental algum" passou a "Parte das suas capturas não tem conteúdo ambiental algum". | A proporção vinha do resultado da rodada de setembro de 2026 e poderia ancorar a classificação na rodada por painel de modelos. Alteração feita antes do pré-registro do protocolo; nenhuma regra de classificação mudou. |
