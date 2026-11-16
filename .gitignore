@@ -93,3 +93,8 @@ metodologia/classificacao_humana_simulada/
 .env*
 metodologia/saida/*_R.csv
 metodologia/saida/*_py.csv
+
+# Ponte CBO 2002 -> COD: insumos, saidas e nota metodologica versionados
+!metodologia/insumos/ponte/*.csv
+!metodologia/saida/ponte/*.csv
+!metodologia/Nota_metodologica_ponte_CBO_COD.docx
