@@ -1,0 +1,51 @@
+﻿INDICE;COD;TITULO;OCUPADOS_MIL;PCT_OCUPADOS;INDICE_DO_GRUPO;PCT_DO_CONTEUDO_TOTAL;PCT_ACUMULADO
+"verde";"9313";"Building Construction Labourers";1845,2;1,82847;0,09038;13,38443;13,38443
+"verde";"9112";"Cleaners and Helpers in Offices, Hotels and Other Establishments";2710,9;2,68631;0,03051;6,63804;20,02247
+"verde";"9111";"Domestic Cleaners and Helpers";4343,3;4,30391;0,01761;6,13852;26,16099
+"verde";"9211";"Crop Farm Labourers";1391,4;1,37878;0,0468;5,22615;31,38714
+"verde";"5221";"Shopkeepers";3398,1;3,36728;0,01808;4,93082;36,31795
+"verde";"7112";"Bricklayers and Related Workers";2884,6;2,85844;0,01897;4,39174;40,7097
+"verde";"9329";"Manufacturing Labourers Not Elsewhere Classified";742,8;0,73606;0,05556;3,31221;44,02191
+"verde";"5311";"Child Care Workers";1030,6;1,02125;0,02762;2,28454;46,30645
+"verde";"7231";"Motor Vehicle Mechanics and Repairers";1332,7;1,32061;0,02075;2,2194;48,52584
+"verde";"9612";"Refuse Sorters";306,2;0,30342;0,08999;2,21148;50,73732
+"verde";"7131";"Painters and Related Workers";758,3;0,75142;0,0358;2,17875;52,91608
+"verde";"5120";"Cooks";1566,5;1,55229;0,01685;2,11843;55,03451
+"verde";"9611";"Garbage and Recycling Collectors";262,3;0,25992;0,09478;1,99526;57,02977
+"verde";"5322";"Home-based Personal Care Workers";706,4;0,69999;0,02762;1,56588;58,59565
+"verde";"9412";"Kitchen Helpers";759,1;0,75222;0,02485;1,51394;60,10959
+"verde";"8153";"Sewing Machine Operators";767;0,76004;0,02452;1,50938;61,61898
+"verde";"7233";"Agricultural and Industrial Machinery Mechanics and Repairers";547,7;0,54273;0,0334;1,46816;63,08714
+"verde";"7223";"Metal Working Machine Tool Setters and Operators";264,8;0,2624;0,06629;1,4088;64,49594
+"verde";"2142";"Civil Engineers";304,8;0,30204;0,05474;1,33907;65,83501
+"verde";"2341";"Primary School Teachers";1594,3;1,57984;0,00979;1,25267;67,08768
+"verde";"3253";"Community Health Workers";453,5;0,44939;0,03038;1,10573;68,19341
+"verde";"6121";"Livestock and Dairy Producers";1377,1;1,36461;0,00852;0,94165;69,13506
+"verde";"1420";"Retail and Wholesale Trade Managers";607,6;0,60209;0,01779;0,86752;70,00258
+"verde";"7412";"Electrical Mechanics and Fitters";357,1;0,35386;0,02709;0,7764;70,77897
+"verde";"5131";"Waiters";547,7;0,54273;0,01736;0,76309;71,54206
+"marrom";"7112";"Bricklayers and Related Workers";2884,6;2,85844;0,10572;38,59279;38,59279
+"marrom";"6111";"Field Crop and Vegetable Growers";2203,6;2,18362;0,08606;23,99924;62,59203
+"marrom";"9313";"Building Construction Labourers";1845,2;1,82847;0,0452;10,55469;73,14671
+"marrom";"8332";"Heavy Truck and Lorry Drivers";1941,6;1,92399;0,02199;5,40317;78,54988
+"marrom";"9211";"Crop Farm Labourers";1391,4;1,37878;0,0234;4,12032;82,6702
+"marrom";"7131";"Painters and Related Workers";758,3;0,75142;0,0358;3,43548;86,10569
+"marrom";"6121";"Livestock and Dairy Producers";1377,1;1,36461;0,014;2,43982;88,5455
+"marrom";"6112";"Tree and Shrub Crop Growers";714,8;0,70832;0,01963;1,77569;90,32119
+"marrom";"7113";"Stonemasons, Stone Cutters, Splitters and Carvers";84,5;0,08373;0,09463;1,01193;91,33312
+"marrom";"9212";"Livestock Farm Labourers";544,4;0,53946;0,01371;0,94454;92,27766
+"marrom";"8121";"Metal Processing Plant Operators";123,1;0,12198;0,05189;0,80836;93,08602
+"marrom";"7115";"Carpenters and Joiners";232,9;0,23079;0,02606;0,76808;93,8541
+"marrom";"5223";"Shop Sales Assistants";3714,4;3,68071;0,00111;0,52177;94,37587
+"marrom";"7122";"Floor Layers and Tile Setters";113;0,11198;0,03475;0,49693;94,8728
+"marrom";"8341";"Mobile Farm and Forestry Plant Operators";365,8;0,36248;0,0098;0,45366;95,32646
+"marrom";"9311";"Mining and Quarrying Labourers";38,5;0,03815;0,08237;0,40132;95,72778
+"marrom";"9215";"Forestry Labourers";194,2;0,19244;0,01401;0,34431;96,07209
+"marrom";"9312";"Civil Engineering Labourers";43,1;0,04271;0,05683;0,30997;96,38206
+"marrom";"6210";"Forestry and Related Workers";77,1;0,0764;0,03175;0,30979;96,69185
+"marrom";"8114";"Cement, Stone and Other Mineral Products Machine Operators";24,4;0,02418;0,09649;0,29794;96,98979
+"marrom";"3117";"Mining and Metallurgical Technicians";54,7;0,0542;0,03238;0,22414;97,21394
+"marrom";"8142";"Plastic Products Machine Operators";133,1;0,13189;0,01294;0,21796;97,4319
+"marrom";"8182";"Steam Engine and Boiler Operators";52,2;0,05173;0,02965;0,19587;97,62776
+"marrom";"7233";"Agricultural and Industrial Machinery Mechanics and Repairers";547,7;0,54273;0,00241;0,16704;97,7948
+"marrom";"7313";"Jewellery and Precious Metal Workers";31,6;0,03131;0,0416;0,16636;97,96116

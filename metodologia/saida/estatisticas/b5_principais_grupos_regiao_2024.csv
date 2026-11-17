@@ -1,0 +1,61 @@
+﻿RECORTE;INDICE;POSICAO;COD;TITULO;OCUPADOS_MIL;INDICE_DO_GRUPO;PCT_DO_CONTEUDO
+"Brasil";"verde";1;"9313";"Building Construction Labourers";1845,2;0,09038;13,38443
+"Brasil";"verde";2;"9112";"Cleaners and Helpers in Offices, Hotels and Other Establishments";2710,9;0,03051;6,63804
+"Brasil";"verde";3;"9111";"Domestic Cleaners and Helpers";4343,3;0,01761;6,13852
+"Brasil";"verde";4;"9211";"Crop Farm Labourers";1391,4;0,0468;5,22615
+"Brasil";"verde";5;"5221";"Shopkeepers";3398,1;0,01808;4,93082
+"Brasil";"verde";6;"7112";"Bricklayers and Related Workers";2884,6;0,01897;4,39174
+"Brasil";"verde";7;"9329";"Manufacturing Labourers Not Elsewhere Classified";742,8;0,05556;3,31221
+"Brasil";"verde";8;"5311";"Child Care Workers";1030,6;0,02762;2,28454
+"Brasil";"verde";9;"7231";"Motor Vehicle Mechanics and Repairers";1332,7;0,02075;2,2194
+"Brasil";"verde";10;"9612";"Refuse Sorters";306,2;0,08999;2,21148
+"Brasil";"verde";11;"7131";"Painters and Related Workers";758,3;0,0358;2,17875
+"Brasil";"verde";12;"5120";"Cooks";1566,5;0,01685;2,11843
+"Brasil";"verde";13;"9611";"Garbage and Recycling Collectors";262,3;0,09478;1,99526
+"Brasil";"verde";14;"5322";"Home-based Personal Care Workers";706,4;0,02762;1,56588
+"Brasil";"verde";15;"9412";"Kitchen Helpers";759,1;0,02485;1,51394
+"Nordeste";"verde";1;"9313";"Building Construction Labourers";716;0,09038;20,13369
+"Nordeste";"verde";2;"9211";"Crop Farm Labourers";666,4;0,0468;9,70328
+"Nordeste";"verde";3;"9112";"Cleaners and Helpers in Offices, Hotels and Other Establishments";627,9;0,03051;5,96033
+"Nordeste";"verde";4;"9111";"Domestic Cleaners and Helpers";1063,5;0,01761;5,82686
+"Nordeste";"verde";5;"5221";"Shopkeepers";1012,7;0,01808;5,69662
+"Nordeste";"verde";6;"7112";"Bricklayers and Related Workers";650,3;0,01897;3,83812
+"Nordeste";"verde";7;"9611";"Garbage and Recycling Collectors";111;0,09478;3,27324
+"Nordeste";"verde";8;"9612";"Refuse Sorters";82,8;0,08999;2,31826
+"Nordeste";"verde";9;"7231";"Motor Vehicle Mechanics and Repairers";321,3;0,02075;2,07428
+"Nordeste";"verde";10;"5120";"Cooks";372,9;0,01685;1,95493
+"Nordeste";"verde";11;"5311";"Child Care Workers";218,8;0,02762;1,88022
+"Nordeste";"verde";12;"8153";"Sewing Machine Operators";238,2;0,02452;1,81719
+"Nordeste";"verde";13;"3253";"Community Health Workers";168,2;0,03038;1,58983
+"Nordeste";"verde";14;"7131";"Painters and Related Workers";139,6;0,0358;1,55491
+"Nordeste";"verde";15;"5322";"Home-based Personal Care Workers";180,5;0,02762;1,5511
+"Brasil";"marrom";1;"7112";"Bricklayers and Related Workers";2884,6;0,10572;38,59279
+"Brasil";"marrom";2;"6111";"Field Crop and Vegetable Growers";2203,6;0,08606;23,99924
+"Brasil";"marrom";3;"9313";"Building Construction Labourers";1845,2;0,0452;10,55469
+"Brasil";"marrom";4;"8332";"Heavy Truck and Lorry Drivers";1941,6;0,02199;5,40317
+"Brasil";"marrom";5;"9211";"Crop Farm Labourers";1391,4;0,0234;4,12032
+"Brasil";"marrom";6;"7131";"Painters and Related Workers";758,3;0,0358;3,43548
+"Brasil";"marrom";7;"6121";"Livestock and Dairy Producers";1377,1;0,014;2,43982
+"Brasil";"marrom";8;"6112";"Tree and Shrub Crop Growers";714,8;0,01963;1,77569
+"Brasil";"marrom";9;"7113";"Stonemasons, Stone Cutters, Splitters and Carvers";84,5;0,09463;1,01193
+"Brasil";"marrom";10;"9212";"Livestock Farm Labourers";544,4;0,01371;0,94454
+"Brasil";"marrom";11;"8121";"Metal Processing Plant Operators";123,1;0,05189;0,80836
+"Brasil";"marrom";12;"7115";"Carpenters and Joiners";232,9;0,02606;0,76808
+"Brasil";"marrom";13;"5223";"Shop Sales Assistants";3714,4;0,00111;0,52177
+"Brasil";"marrom";14;"7122";"Floor Layers and Tile Setters";113;0,03475;0,49693
+"Brasil";"marrom";15;"8341";"Mobile Farm and Forestry Plant Operators";365,8;0,0098;0,45366
+"Nordeste";"marrom";1;"7112";"Bricklayers and Related Workers";650,3;0,10572;30,91613
+"Nordeste";"marrom";2;"6111";"Field Crop and Vegetable Growers";797,3;0,08606;30,85584
+"Nordeste";"marrom";3;"9313";"Building Construction Labourers";716;0,0452;14,55344
+"Nordeste";"marrom";4;"9211";"Crop Farm Labourers";666,4;0,0234;7,01237
+"Nordeste";"marrom";5;"8332";"Heavy Truck and Lorry Drivers";286,9;0,02199;2,83707
+"Nordeste";"marrom";6;"6121";"Livestock and Dairy Producers";395,2;0,014;2,48805
+"Nordeste";"marrom";7;"7131";"Painters and Related Workers";139,6;0,0358;2,24741
+"Nordeste";"marrom";8;"9212";"Livestock Farm Labourers";252,4;0,01371;1,55611
+"Nordeste";"marrom";9;"6112";"Tree and Shrub Crop Growers";144,5;0,01963;1,27556
+"Nordeste";"marrom";10;"9311";"Mining and Quarrying Labourers";19,8;0,08237;0,73341
+"Nordeste";"marrom";11;"7115";"Carpenters and Joiners";60;0,02606;0,70314
+"Nordeste";"marrom";12;"7113";"Stonemasons, Stone Cutters, Splitters and Carvers";15,9;0,09463;0,67661
+"Nordeste";"marrom";13;"9215";"Forestry Labourers";71,7;0,01401;0,45172
+"Nordeste";"marrom";14;"5223";"Shop Sales Assistants";901,4;0,00111;0,44994
+"Nordeste";"marrom";15;"7122";"Floor Layers and Tile Setters";21,7;0,03475;0,3391

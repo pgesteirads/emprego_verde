@@ -1,0 +1,79 @@
+﻿ANO;INDICE;ESPECIFICACAO;N_AMOSTRA;COEF;EP_LM;VARIACAO_PCT_POR_PONTO;R2
+2012;"verde";"Bruto";225533;-0,06349;0,00088;-6,15127;0,02245
+2012;"verde";"Controles pessoais e regionais";225533;-0,01875;0,00071;-1,85706;0,41462
+2012;"verde";"Mais informalidade e setor";225533;-0,02334;0,00078;-2,3074;0,44417
+2012;"marrom";"Bruto";225533;-0,04369;0,0007;-4,27507;0,01713
+2012;"marrom";"Controles pessoais e regionais";225533;-0,00971;0,00059;-0,9665;0,41351
+2012;"marrom";"Mais informalidade e setor";225533;-0,00994;0,00073;-0,98945;0,4424
+2013;"verde";"Bruto";233088;-0,06857;0,00086;-6,62762;0,02647
+2013;"verde";"Controles pessoais e regionais";233088;-0,0202;0,00069;-1,99953;0,42185
+2013;"verde";"Mais informalidade e setor";233088;-0,0249;0,00076;-2,45881;0,45069
+2013;"marrom";"Bruto";233088;-0,04181;0,00067;-4,09486;0,0162
+2013;"marrom";"Controles pessoais e regionais";233088;-0,00818;0,00057;-0,81481;0,42025
+2013;"marrom";"Mais informalidade e setor";233088;-0,01165;0,00072;-1,1581;0,44881
+2014;"verde";"Bruto";237507;-0,06248;0,00084;-6,05698;0,02261
+2014;"verde";"Controles pessoais e regionais";237507;-0,01856;0,00068;-1,83893;0,42004
+2014;"verde";"Mais informalidade e setor";237507;-0,02456;0,00074;-2,42616;0,44976
+2014;"marrom";"Bruto";237507;-0,03806;0,00066;-3,73453;0,01361
+2014;"marrom";"Controles pessoais e regionais";237507;-0,00663;0,00056;-0,66056;0,41854
+2014;"marrom";"Mais informalidade e setor";237507;-0,01008;0,00073;-1,00308;0,44762
+2015;"verde";"Bruto";230532;-0,06001;0,00089;-5,82469;0,01946
+2015;"verde";"Controles pessoais e regionais";230532;-0,01648;0,00071;-1,63469;0,4193
+2015;"verde";"Mais informalidade e setor";230532;-0,02005;0,00076;-1,98536;0,45899
+2015;"marrom";"Bruto";230532;-0,0489;0,00067;-4,77252;0,02242
+2015;"marrom";"Controles pessoais e regionais";230532;-0,01274;0,00057;-1,26605;0,4192
+2015;"marrom";"Mais informalidade e setor";230532;-0,00979;0,00076;-0,97457;0,45776
+2016;"verde";"Bruto";225863;-0,06204;0,00091;-6,01568;0,02007
+2016;"verde";"Controles pessoais e regionais";225863;-0,01843;0,00072;-1,82576;0,4243
+2016;"verde";"Mais informalidade e setor";225863;-0,02261;0,00079;-2,23587;0,46663
+2016;"marrom";"Bruto";225863;-0,05303;0,00069;-5,16442;0,02541
+2016;"marrom";"Controles pessoais e regionais";225863;-0,01503;0,00058;-1,49224;0,42434
+2016;"marrom";"Mais informalidade e setor";225863;-0,01043;0,00079;-1,03742;0,4651
+2017;"verde";"Bruto";225212;-0,05723;0,00093;-5,56259;0,01638
+2017;"verde";"Controles pessoais e regionais";225212;-0,01843;0,00075;-1,82639;0,40148
+2017;"verde";"Mais informalidade e setor";225212;-0,02213;0,00082;-2,18915;0,44566
+2017;"marrom";"Bruto";225212;-0,05091;0,00071;-4,96344;0,02254
+2017;"marrom";"Controles pessoais e regionais";225212;-0,0153;0,0006;-1,51882;0,40157
+2017;"marrom";"Mais informalidade e setor";225212;-0,0092;0,00083;-0,91568;0,44418
+2018;"verde";"Bruto";223059;-0,06567;0,00097;-6,35559;0,02026
+2018;"verde";"Controles pessoais e regionais";223059;-0,02034;0,00078;-2,01373;0,40187
+2018;"verde";"Mais informalidade e setor";223059;-0,0224;0,00087;-2,21478;0,44693
+2018;"marrom";"Bruto";223059;-0,05192;0,00074;-5,05977;0,02155
+2018;"marrom";"Controles pessoais e regionais";223059;-0,0159;0,00063;-1,57787;0,40175
+2018;"marrom";"Mais informalidade e setor";223059;-0,00898;0,00087;-0,89401;0,44553
+2019;"verde";"Bruto";220378;-0,06726;0,00098;-6,50486;0,02098
+2019;"verde";"Controles pessoais e regionais";220378;-0,02132;0,00079;-2,1099;0,40152
+2019;"verde";"Mais informalidade e setor";220378;-0,02345;0,00086;-2,31785;0,44625
+2019;"marrom";"Bruto";220378;-0,05444;0,00076;-5,29812;0,02289
+2019;"marrom";"Controles pessoais e regionais";220378;-0,0173;0,00065;-1,71542;0,40148
+2019;"marrom";"Mais informalidade e setor";220378;-0,01203;0,00088;-1,19542;0,44487
+2020;"verde";"Bruto";124881;-0,06088;0,00127;-5,90607;0,01803
+2020;"verde";"Controles pessoais e regionais";124881;-0,01636;0,00102;-1,62247;0,39877
+2020;"verde";"Mais informalidade e setor";124881;-0,01863;0,00112;-1,8457;0,44881
+2020;"marrom";"Bruto";124881;-0,06112;0,00098;-5,92913;0,03038
+2020;"marrom";"Controles pessoais e regionais";124881;-0,0203;0,00085;-2,00994;0,40029
+2020;"marrom";"Mais informalidade e setor";124881;-0,01343;0,00114;-1,33388;0,44819
+2021;"verde";"Bruto";184796;-0,05832;0,001;-5,66489;0,01795
+2021;"verde";"Controles pessoais e regionais";184796;-0,01895;0,00083;-1,8769;0,37388
+2021;"verde";"Mais informalidade e setor";184796;-0,02172;0,0009;-2,14861;0,4187
+2021;"marrom";"Bruto";184796;-0,0496;0,00078;-4,83905;0,0214
+2021;"marrom";"Controles pessoais e regionais";184796;-0,01411;0,00069;-1,40074;0,37353
+2021;"marrom";"Mais informalidade e setor";184796;-0,00947;0,00093;-0,9423;0,41719
+2022;"verde";"Bruto";198272;-0,06242;0,00101;-6,05072;0,01895
+2022;"verde";"Controles pessoais e regionais";198272;-0,02131;0,00083;-2,10873;0,37551
+2022;"verde";"Mais informalidade e setor";198272;-0,02215;0,00091;-2,19021;0,41686
+2022;"marrom";"Bruto";198272;-0,04755;0,00079;-4,64399;0,01806
+2022;"marrom";"Controles pessoais e regionais";198272;-0,01369;0,00069;-1,35964;0,37469
+2022;"marrom";"Mais informalidade e setor";198272;-0,00868;0,00092;-0,86402;0,41537
+2023;"verde";"Bruto";198129;-0,06441;0,00101;-6,2377;0,02024
+2023;"verde";"Controles pessoais e regionais";198129;-0,02189;0,00083;-2,16554;0,36833
+2023;"verde";"Mais informalidade e setor";198129;-0,02173;0,00092;-2,14984;0,41133
+2023;"marrom";"Bruto";198129;-0,0488;0,00082;-4,76262;0,01772
+2023;"marrom";"Controles pessoais e regionais";198129;-0,01351;0,00071;-1,34225;0,36728
+2023;"marrom";"Mais informalidade e setor";198129;-0,00576;0,00096;-0,57408;0,40977
+2024;"verde";"Bruto";202179;-0,0645;0,00099;-6,24655;0,02063
+2024;"verde";"Controles pessoais e regionais";202179;-0,02218;0,00082;-2,19336;0,36943
+2024;"verde";"Mais informalidade e setor";202179;-0,0231;0,0009;-2,28313;0,41167
+2024;"marrom";"Bruto";202179;-0,04555;0,0008;-4,45241;0,01574
+2024;"marrom";"Controles pessoais e regionais";202179;-0,01045;0,0007;-1,03925;0,36783
+2024;"marrom";"Mais informalidade e setor";202179;-0,00399;0,00094;-0,39826;0,4098

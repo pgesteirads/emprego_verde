@@ -1,0 +1,207 @@
+﻿ANO;GRUPO_OCUPACAO;CLASSE_SETOR;N_AMOSTRA;OCUPADOS_MIL;PCT_OCUPADOS_DO_ANO;PCT_DENTRO_DA_CLASSE_SETOR
+"2012";"Alta intensidade marrom";"Marrom";27157;8195,8;9,23;14,58
+"2012";"Alta intensidade marrom";"Neutra";327;140,3;0,16;0,75
+"2012";"Alta intensidade marrom";"Sem informação";3;0,7;0;5,74
+"2012";"Alta intensidade marrom";"Verde";444;174,8;0,2;1,26
+"2012";"Alta intensidade verde e marrom";"Marrom";19423;5628,7;6,34;10,01
+"2012";"Alta intensidade verde e marrom";"Neutra";136;53,5;0,06;0,29
+"2012";"Alta intensidade verde e marrom";"Sem informação";2;0,4;0;3,28
+"2012";"Alta intensidade verde e marrom";"Verde";223;89;0,1;0,64
+"2012";"Alta intensidade verde";"Marrom";9590;3803,2;4,28;6,76
+"2012";"Alta intensidade verde";"Neutra";2167;902,3;1,02;4,83
+"2012";"Alta intensidade verde";"Sem informação";6;1,7;0;13,93
+"2012";"Alta intensidade verde";"Verde";5857;2195,3;2,47;15,88
+"2012";"Demais ocupações";"Marrom";102108;38601;43,49;68,65
+"2012";"Demais ocupações";"Neutra";41931;17591,5;19,82;94,13
+"2012";"Demais ocupações";"Sem informação";31;9,4;0,01;77,05
+"2012";"Demais ocupações";"Verde";29618;11369,2;12,81;82,22
+"2013";"Alta intensidade marrom";"Marrom";27746;8251,7;9,14;14,43
+"2013";"Alta intensidade marrom";"Neutra";336;138,5;0,15;0,73
+"2013";"Alta intensidade marrom";"Sem informação";2;0,4;0;2,9
+"2013";"Alta intensidade marrom";"Verde";453;161,7;0,18;1,15
+"2013";"Alta intensidade verde e marrom";"Marrom";20579;5812,9;6,44;10,16
+"2013";"Alta intensidade verde e marrom";"Neutra";125;51,6;0,06;0,27
+"2013";"Alta intensidade verde e marrom";"Verde";160;61,9;0,07;0,44
+"2013";"Alta intensidade verde";"Marrom";9055;3570,1;3,95;6,24
+"2013";"Alta intensidade verde";"Neutra";2456;994,5;1,1;5,23
+"2013";"Alta intensidade verde";"Sem informação";4;0,9;0;6,52
+"2013";"Alta intensidade verde";"Verde";6222;2261,1;2,5;16,07
+"2013";"Demais ocupações";"Marrom";105269;39552;43,81;69,16
+"2013";"Demais ocupações";"Neutra";43431;17816,2;19,74;93,77
+"2013";"Demais ocupações";"Sem informação";32;12,5;0,01;90,58
+"2013";"Demais ocupações";"Verde";30881;11589,1;12,84;82,35
+"2014";"Alta intensidade marrom";"Marrom";27533;8109,5;8,88;14,19
+"2014";"Alta intensidade marrom";"Neutra";349;131,1;0,14;0,66
+"2014";"Alta intensidade marrom";"Sem informação";2;0,9;0;5,2
+"2014";"Alta intensidade marrom";"Verde";462;179,4;0,2;1,24
+"2014";"Alta intensidade verde e marrom";"Marrom";19607;5489,5;6,01;9,6
+"2014";"Alta intensidade verde e marrom";"Neutra";144;53,2;0,06;0,27
+"2014";"Alta intensidade verde e marrom";"Sem informação";3;1,9;0;10,98
+"2014";"Alta intensidade verde e marrom";"Verde";166;56,5;0,06;0,39
+"2014";"Alta intensidade verde";"Marrom";9239;3765,6;4,12;6,59
+"2014";"Alta intensidade verde";"Neutra";2611;1091,4;1,19;5,53
+"2014";"Alta intensidade verde";"Sem informação";3;2,3;0;13,29
+"2014";"Alta intensidade verde";"Verde";6406;2378;2,6;16,47
+"2014";"Demais ocupações";"Marrom";107312;39804,1;43,57;69,63
+"2014";"Demais ocupações";"Neutra";44688;18455,3;20,2;93,53
+"2014";"Demais ocupações";"Sem informação";28;12,2;0,01;70,52
+"2014";"Demais ocupações";"Verde";32311;11825,7;12,94;81,9
+"2015";"Alta intensidade marrom";"Marrom";29344;8705,7;9,61;15,44
+"2015";"Alta intensidade marrom";"Neutra";243;100,4;0,11;0,51
+"2015";"Alta intensidade marrom";"Sem informação";2;0,7;0;4,02
+"2015";"Alta intensidade marrom";"Verde";506;198,3;0,22;1,39
+"2015";"Alta intensidade verde e marrom";"Marrom";15841;4755,1;5,25;8,43
+"2015";"Alta intensidade verde e marrom";"Neutra";90;35,5;0,04;0,18
+"2015";"Alta intensidade verde e marrom";"Sem informação";1;0;0;0
+"2015";"Alta intensidade verde e marrom";"Verde";169;65,1;0,07;0,46
+"2015";"Alta intensidade verde";"Marrom";8141;3536,2;3,9;6,27
+"2015";"Alta intensidade verde";"Neutra";2544;1090,9;1,2;5,49
+"2015";"Alta intensidade verde";"Sem informação";3;0,9;0;5,17
+"2015";"Alta intensidade verde";"Verde";5882;2222,8;2,45;15,56
+"2015";"Demais ocupações";"Marrom";103601;39381,2;43,49;69,85
+"2015";"Demais ocupações";"Neutra";44337;18654;20,6;93,83
+"2015";"Demais ocupações";"Sem informação";40;15,8;0,02;90,8
+"2015";"Demais ocupações";"Verde";30825;11799,5;13,03;82,6
+"2016";"Alta intensidade marrom";"Marrom";26930;8077,7;9,15;14,93
+"2016";"Alta intensidade marrom";"Neutra";250;106,8;0,12;0,54
+"2016";"Alta intensidade marrom";"Sem informação";1;0,1;0;2,33
+"2016";"Alta intensidade marrom";"Verde";492;174,9;0,2;1,23
+"2016";"Alta intensidade verde e marrom";"Marrom";13767;4168;4,72;7,71
+"2016";"Alta intensidade verde e marrom";"Neutra";111;44,4;0,05;0,22
+"2016";"Alta intensidade verde e marrom";"Verde";148;58,1;0,07;0,41
+"2016";"Alta intensidade verde";"Marrom";6681;2860,9;3,24;5,29
+"2016";"Alta intensidade verde";"Neutra";2335;958,2;1,09;4,8
+"2016";"Alta intensidade verde";"Sem informação";2;0,6;0;13,95
+"2016";"Alta intensidade verde";"Verde";5843;2288,6;2,59;16,13
+"2016";"Demais ocupações";"Marrom";103087;38980,4;44,17;72,07
+"2016";"Demais ocupações";"Neutra";44911;18852,3;21,36;94,44
+"2016";"Demais ocupações";"Sem informação";12;3,6;0;83,72
+"2016";"Demais ocupações";"Verde";30308;11666,3;13,22;82,23
+"2017";"Alta intensidade marrom";"Marrom";25388;7777,3;8,63;14,19
+"2017";"Alta intensidade marrom";"Neutra";241;103,3;0,11;0,49
+"2017";"Alta intensidade marrom";"Sem informação";2;0,5;0;1,68
+"2017";"Alta intensidade marrom";"Verde";430;175;0,19;1,22
+"2017";"Alta intensidade verde e marrom";"Marrom";11217;3709,2;4,11;6,77
+"2017";"Alta intensidade verde e marrom";"Neutra";93;37,5;0,04;0,18
+"2017";"Alta intensidade verde e marrom";"Sem informação";3;1;0;3,36
+"2017";"Alta intensidade verde e marrom";"Verde";145;56;0,06;0,39
+"2017";"Alta intensidade verde";"Marrom";6595;2961,1;3,28;5,4
+"2017";"Alta intensidade verde";"Neutra";2626;1153,4;1,28;5,5
+"2017";"Alta intensidade verde";"Sem informação";38;19,7;0,02;66,11
+"2017";"Alta intensidade verde";"Verde";6203;2426,9;2,69;16,91
+"2017";"Demais ocupações";"Marrom";104671;40348,9;44,76;73,63
+"2017";"Demais ocupações";"Neutra";46048;19673,1;21,82;93,83
+"2017";"Demais ocupações";"Sem informação";17;8,6;0,01;28,86
+"2017";"Demais ocupações";"Verde";30510;11696,3;12,97;81,48
+"2018";"Alta intensidade marrom";"Marrom";23383;7339,1;8,05;13,35
+"2018";"Alta intensidade marrom";"Neutra";238;115,2;0,13;0,54
+"2018";"Alta intensidade marrom";"Sem informação";8;2;0;7,41
+"2018";"Alta intensidade marrom";"Verde";349;136,4;0,15;0,93
+"2018";"Alta intensidade verde e marrom";"Marrom";11332;3851,6;4,23;7,01
+"2018";"Alta intensidade verde e marrom";"Neutra";94;42,2;0,05;0,2
+"2018";"Alta intensidade verde e marrom";"Sem informação";2;0,7;0;2,59
+"2018";"Alta intensidade verde e marrom";"Verde";144;50,6;0,06;0,34
+"2018";"Alta intensidade verde";"Marrom";6655;3030,6;3,33;5,51
+"2018";"Alta intensidade verde";"Neutra";2511;1152,3;1,26;5,38
+"2018";"Alta intensidade verde";"Sem informação";25;10,7;0,01;39,63
+"2018";"Alta intensidade verde";"Verde";6147;2458,2;2,7;16,68
+"2018";"Demais ocupações";"Marrom";103641;40738,2;44,7;74,12
+"2018";"Demais ocupações";"Neutra";46367;20110,6;22,06;93,89
+"2018";"Demais ocupações";"Sem informação";36;13,6;0,01;50,37
+"2018";"Demais ocupações";"Verde";30803;12091;13,27;82,05
+"2019";"Alta intensidade marrom";"Marrom";22854;7308,8;7,86;13,05
+"2019";"Alta intensidade marrom";"Neutra";192;87,8;0,09;0,4
+"2019";"Alta intensidade marrom";"Sem informação";3;0,8;0;4,12
+"2019";"Alta intensidade marrom";"Verde";372;154;0,17;1,04
+"2019";"Alta intensidade verde e marrom";"Marrom";10745;3773,8;4,06;6,74
+"2019";"Alta intensidade verde e marrom";"Neutra";90;47,1;0,05;0,21
+"2019";"Alta intensidade verde e marrom";"Sem informação";3;0,7;0;3,61
+"2019";"Alta intensidade verde e marrom";"Verde";109;40,3;0,04;0,27
+"2019";"Alta intensidade verde";"Marrom";7069;3304,9;3,56;5,9
+"2019";"Alta intensidade verde";"Neutra";2600;1150,6;1,24;5,22
+"2019";"Alta intensidade verde";"Sem informação";20;8,3;0,01;42,78
+"2019";"Alta intensidade verde";"Verde";5893;2413,3;2,6;16,26
+"2019";"Demais ocupações";"Marrom";101910;41616,1;44,78;74,31
+"2019";"Demais ocupações";"Neutra";46533;20777,2;22,36;94,17
+"2019";"Demais ocupações";"Sem informação";29;9,6;0,01;49,48
+"2019";"Demais ocupações";"Verde";29978;12237;13,17;82,43
+"2020";"Alta intensidade marrom";"Marrom";13728;7163;8,45;14,15
+"2020";"Alta intensidade marrom";"Neutra";126;95,4;0,11;0,49
+"2020";"Alta intensidade marrom";"Sem informação";2;0,5;0;1,72
+"2020";"Alta intensidade marrom";"Verde";219;141,4;0,17;0,98
+"2020";"Alta intensidade verde e marrom";"Marrom";6211;3497;4,13;6,91
+"2020";"Alta intensidade verde e marrom";"Neutra";48;34,2;0,04;0,17
+"2020";"Alta intensidade verde e marrom";"Sem informação";1;0,1;0;0,34
+"2020";"Alta intensidade verde e marrom";"Verde";64;35,5;0,04;0,25
+"2020";"Alta intensidade verde";"Marrom";4132;3174,5;3,75;6,27
+"2020";"Alta intensidade verde";"Neutra";1525;1064,6;1,26;5,42
+"2020";"Alta intensidade verde";"Sem informação";13;5,5;0,01;18,97
+"2020";"Alta intensidade verde";"Verde";3544;2201,5;2,6;15,26
+"2020";"Demais ocupações";"Marrom";55928;36771,2;43,4;72,66
+"2020";"Demais ocupações";"Neutra";25842;18464,4;21,79;93,93
+"2020";"Demais ocupações";"Sem informação";52;22,9;0,03;78,97
+"2020";"Demais ocupações";"Verde";18350;12049,2;14,22;83,51
+"2021";"Alta intensidade marrom";"Marrom";20631;7865,7;8,46;13,97
+"2021";"Alta intensidade marrom";"Neutra";203;107,7;0,12;0,49
+"2021";"Alta intensidade marrom";"Sem informação";4;2,2;0;9,17
+"2021";"Alta intensidade marrom";"Verde";290;143,1;0,15;0,96
+"2021";"Alta intensidade verde e marrom";"Marrom";9803;4027,1;4,33;7,15
+"2021";"Alta intensidade verde e marrom";"Neutra";89;48;0,05;0,22
+"2021";"Alta intensidade verde e marrom";"Sem informação";4;1,6;0;6,67
+"2021";"Alta intensidade verde e marrom";"Verde";91;41,9;0,05;0,28
+"2021";"Alta intensidade verde";"Marrom";6287;3471,7;3,73;6,17
+"2021";"Alta intensidade verde";"Neutra";2254;1189,1;1,28;5,45
+"2021";"Alta intensidade verde";"Sem informação";12;6,6;0,01;27,5
+"2021";"Alta intensidade verde";"Verde";5297;2548,7;2,74;17,15
+"2021";"Demais ocupações";"Marrom";83818;40945,6;44,02;72,71
+"2021";"Demais ocupações";"Neutra";38052;20484,3;22,02;93,84
+"2021";"Demais ocupações";"Sem informação";22;13,6;0,01;56,67
+"2021";"Demais ocupações";"Verde";24428;12128,5;13,04;81,61
+"2022";"Alta intensidade marrom";"Marrom";20109;7699,6;7,97;13,33
+"2022";"Alta intensidade marrom";"Neutra";218;121,6;0,13;0,52
+"2022";"Alta intensidade marrom";"Sem informação";1;0,3;0;1,96
+"2022";"Alta intensidade marrom";"Verde";391;193,6;0,2;1,25
+"2022";"Alta intensidade verde e marrom";"Marrom";9748;3926,8;4,07;6,8
+"2022";"Alta intensidade verde e marrom";"Neutra";74;39,1;0,04;0,17
+"2022";"Alta intensidade verde e marrom";"Sem informação";1;0,1;0;0,65
+"2022";"Alta intensidade verde e marrom";"Verde";137;69,6;0,07;0,45
+"2022";"Alta intensidade verde";"Marrom";6486;3583,8;3,71;6,21
+"2022";"Alta intensidade verde";"Neutra";2222;1126,2;1,17;4,84
+"2022";"Alta intensidade verde";"Sem informação";18;7,4;0,01;48,37
+"2022";"Alta intensidade verde";"Verde";4826;2134,8;2,21;13,75
+"2022";"Demais ocupações";"Marrom";88955;42546,3;44,07;73,66
+"2022";"Demais ocupações";"Neutra";42373;21965,5;22,75;94,47
+"2022";"Demais ocupações";"Sem informação";18;7,5;0,01;49,02
+"2022";"Demais ocupações";"Verde";28247;13127,8;13,6;84,55
+"2023";"Alta intensidade marrom";"Marrom";19033;7257,8;7,4;12,51
+"2023";"Alta intensidade marrom";"Neutra";239;124,3;0,13;0,51
+"2023";"Alta intensidade marrom";"Sem informação";2;1,2;0;3,25
+"2023";"Alta intensidade marrom";"Verde";317;147,8;0,15;0,94
+"2023";"Alta intensidade verde e marrom";"Marrom";9522;3982,9;4,06;6,87
+"2023";"Alta intensidade verde e marrom";"Neutra";97;51,6;0,05;0,21
+"2023";"Alta intensidade verde e marrom";"Sem informação";3;0,5;0;1,36
+"2023";"Alta intensidade verde e marrom";"Verde";108;55,9;0,06;0,35
+"2023";"Alta intensidade verde";"Marrom";6404;3564,6;3,63;6,15
+"2023";"Alta intensidade verde";"Neutra";2352;1207,4;1,23;4,97
+"2023";"Alta intensidade verde";"Sem informação";15;7,9;0,01;21,41
+"2023";"Alta intensidade verde";"Verde";4521;2053,4;2,09;13,02
+"2023";"Demais ocupações";"Marrom";88331;43193,3;44,03;74,47
+"2023";"Demais ocupações";"Neutra";43960;22899,7;23,35;94,3
+"2023";"Demais ocupações";"Sem informação";38;27,3;0,03;73,98
+"2023";"Demais ocupações";"Verde";28215;13515,9;13,78;85,69
+"2024";"Alta intensidade marrom";"Marrom";19520;7413,7;7,35;12,42
+"2024";"Alta intensidade marrom";"Neutra";260;148;0,15;0,6
+"2024";"Alta intensidade marrom";"Sem informação";3;2,1;0;15,11
+"2024";"Alta intensidade marrom";"Verde";341;177,8;0,18;1,08
+"2024";"Alta intensidade verde e marrom";"Marrom";9914;4103,8;4,07;6,88
+"2024";"Alta intensidade verde e marrom";"Neutra";110;55,4;0,05;0,22
+"2024";"Alta intensidade verde e marrom";"Sem informação";1;0,3;0;2,16
+"2024";"Alta intensidade verde e marrom";"Verde";119;62,8;0,06;0,38
+"2024";"Alta intensidade verde";"Marrom";6484;3547,5;3,52;5,94
+"2024";"Alta intensidade verde";"Neutra";2499;1303,8;1,29;5,26
+"2024";"Alta intensidade verde";"Sem informação";10;4,1;0;29,5
+"2024";"Alta intensidade verde";"Verde";4593;2198,2;2,18;13,39
+"2024";"Demais ocupações";"Marrom";90203;44617,2;44,21;74,76
+"2024";"Demais ocupações";"Neutra";44141;23296,5;23,09;93,92
+"2024";"Demais ocupações";"Sem informação";15;7,4;0,01;53,24
+"2024";"Demais ocupações";"Verde";28850;13976;13,85;85,14

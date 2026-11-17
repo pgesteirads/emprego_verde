@@ -98,3 +98,7 @@ metodologia/saida/*_py.csv
 !metodologia/insumos/ponte/*.csv
 !metodologia/saida/ponte/*.csv
 !metodologia/Nota_metodologica_ponte_CBO_COD.docx
+
+# Estatisticas descritivas com a PNADc: tabelas CSV e nota de resultados versionadas
+!metodologia/saida/estatisticas/*.csv
+!metodologia/Estatisticas_descritivas_indice_PNADc.docx
