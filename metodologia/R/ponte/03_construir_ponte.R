@@ -90,10 +90,16 @@ COLUNAS_INDICE <- c("Verde_amplo", "Verde_amplo_broad", "Marrom", "Liquido", "Li
 oit_tit <- setNames(ciuo_isco$TITULO_ISCO08, ciuo_isco$ISCO08)
 man_cod_tit <- if (file.exists(ARQ_PONTE$manual_cod)) {
   x <- ler_csv(ARQ_PONTE$manual_cod); setNames(x$TITULO_COD, x$COD) } else character(0)
+# Título do grupo: denominação oficial da COD (IBGE); na falta dela, o rótulo
+# brasileiro, o da ligação manual e, por último, o título em inglês da ISCO-08.
+ibge_tit <- if (!is.null(ARQ_PONTE$titulos_cod) && file.exists(ARQ_PONTE$titulos_cod)) {
+  x <- ler_csv(ARQ_PONTE$titulos_cod); x <- x[x$NIVEL == "grupo_de_base", ]
+  setNames(x$TITULO, x$COD) } else character(0)
 titulo_cod <- function(cod) {
-  t <- unname(oit_tit[cod])
+  t <- unname(ibge_tit[cod])
   t[is.na(t)] <- unname(setNames(rot_br$TITULO, rot_br$COD)[cod[is.na(t)]])
   t[is.na(t)] <- unname(man_cod_tit[cod[is.na(t)]])
+  t[is.na(t)] <- unname(oit_tit[cod[is.na(t)]])
   t
 }
 

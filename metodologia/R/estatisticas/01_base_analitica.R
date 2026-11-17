@@ -52,15 +52,12 @@ cnae <- as.data.frame(readxl::read_excel(file.path(RAIZ, "dados", "processados",
 cnae$classe_setor <- c(Green = "Verde", Brown = "Marrom", Neutral = "Neutra")[cnae$class_verde_atividade]
 
 REGIOES <- c("1" = "Norte", "2" = "Nordeste", "3" = "Sudeste", "4" = "Sul", "5" = "Centro-Oeste")
-GRANDES_GRUPOS <- c("0" = "Forças armadas, policiais e bombeiros", "1" = "Diretores e gerentes",
-                    "2" = "Profissionais das ciências e intelectuais",
-                    "3" = "Técnicos e profissionais de nível médio",
-                    "4" = "Trabalhadores de apoio administrativo",
-                    "5" = "Serviços, vendedores dos comércios e mercados",
-                    "6" = "Agropecuária, florestais, caça e pesca",
-                    "7" = "Indústria, construção, artes mecânicas e outros ofícios",
-                    "8" = "Operadores de instalações e máquinas e montadores",
-                    "9" = "Ocupações elementares")
+# Denominações oficiais dos grandes grupos da COD (IBGE), gravadas pela ponte
+local({
+  tc <- ler_csv(file.path(CAMINHOS$insumos, "ponte", "cod_titulos_ibge.csv"))
+  tc <- tc[tc$NIVEL == "grande_grupo", ]
+  GRANDES_GRUPOS <<- setNames(tc$TITULO, tc$COD)
+})
 
 VARS <- c("Ano", "UF", "Estrato", "V1022", "V1028", "V2007", "V2009", "V2010", "VD3004",
           "VD4002", "VD4009", "VD4012", "V4019", "V4010", "V4013", "V4039", "VD4016")

@@ -55,3 +55,34 @@ if (all(file.exists(unlist(ARQ_PONTE[c("cbo_ciuo", "ciuo_isco")]))) && !FORCAR_P
   cat("CBO 2002 com CIUO-88:", nrow(cbo_ciuo), "\n")
   cat("pares CIUO-88 x ISCO-08:", nrow(ciuo_isco), "\n")
 }
+
+# ------------------------------------------------------------------------------
+# Denominações oficiais da COD (IBGE)
+# ------------------------------------------------------------------------------
+# cod_titulos_ibge.csv: código e denominação de cada nível da Classificação de
+# Ocupações para Pesquisas Domiciliares (grande grupo, subgrupo principal,
+# subgrupo e grupo de base), extraídos da planilha Estrutura_Ocupacao_COD.xls
+# da documentação da PNADc. Os títulos em maiúsculas da planilha (grandes
+# grupos e subgrupos principais) passam a ter só a inicial maiúscula.
+ARQ_PONTE$titulos_cod <- file.path(DIR_PONTE_INS, "cod_titulos_ibge.csv")
+if (!file.exists(ARQ_PONTE$titulos_cod) || FORCAR_PONTE) {
+  xls_cod <- file.path(RAIZ, "dados", "referencia", "Estrutura_Ocupacao_COD.xls")
+  if (!file.exists(xls_cod)) {
+    utils::download.file(paste0("https://ftp.ibge.gov.br/Trabalho_e_Rendimento/",
+      "Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados/",
+      "Documentacao/Estrutura_Ocupacao_COD.xls"), xls_cod, mode = "wb")
+  }
+  ec <- as.data.frame(readxl::read_excel(xls_cod, col_names = FALSE, col_types = "text"))
+  niveis <- c("grande_grupo", "subgrupo_principal", "subgrupo", "grupo_de_base")
+  tc <- do.call(rbind, lapply(1:4, function(j) {
+    k <- which(grepl("^[0-9]+$", ec[[j]]))
+    data.frame(COD = ec[[j]][k], NIVEL = niveis[j], TITULO = trimws(ec[[5]][k]),
+               stringsAsFactors = FALSE)
+  }))
+  caixa_alta <- tc$TITULO == toupper(tc$TITULO)
+  tc$TITULO[caixa_alta] <- paste0(substr(tc$TITULO[caixa_alta], 1, 1),
+                                  tolower(substring(tc$TITULO[caixa_alta], 2)))
+  tc <- tc[order(tc$COD), ]
+  gravar_csv(tc, ARQ_PONTE$titulos_cod)
+  cat("denominacoes da COD:", paste(names(table(tc$NIVEL)), table(tc$NIVEL), collapse = " | "), "\n")
+}

@@ -322,8 +322,10 @@ guarda("b7_serie", arred(renomeia_idx(ev)))
 # ocupacional dentro de cada setor (dentro). Fórmula simétrica (média dos
 # pesos dos dois anos), sem resíduo.
 PERIODOS <- list(c(2012, 2024), c(2012, 2014), c(2014, 2016), c(2016, 2019), c(2019, 2024))
+# Período extra usado só na planilha do grupo de pesquisa (anos 2012, 2016, 2019 e 2024)
+PERIODOS_GRUPO <- list(c(2012, 2016))
 shift_share <- function(var, por) {
-  do.call(rbind, lapply(PERIODOS, function(p) {
+  do.call(rbind, lapply(c(PERIODOS, PERIODOS_GRUPO), function(p) {
     g <- lapply(p, function(a) {
       x <- dfx[dfx$Ano == a, ]
       s <- tapply(x$V1028, x[[por]], sum); s <- s / sum(s)
@@ -351,7 +353,7 @@ guarda("b7_shift_share_setor", arred(ss, 6))
 
 # Contribuição dos grandes grupos ocupacionais: com o índice fixo, a variação
 # é a soma de (mudança de participação do grupo da COD x seu índice).
-contrib_gg <- do.call(rbind, lapply(PERIODOS, function(p) {
+contrib_gg <- do.call(rbind, lapply(c(PERIODOS, PERIODOS_GRUPO), function(p) {
   do.call(rbind, lapply(c("verde_fixo", "marrom_fixo"), function(var) {
     sh <- lapply(p, function(a) { x <- dfx[dfx$Ano == a, ]; s <- tapply(x$V1028, x$V4010, sum); s / sum(s) })
     k <- union(names(sh[[1]]), names(sh[[2]]))
